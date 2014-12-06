@@ -36,5 +36,5 @@ django-avatar==2.0
 pytz==2014.7
 
 # Your custom requirements go here
-djangorestframework
+djangorestframework==2.3.5
 django-rest-swagger

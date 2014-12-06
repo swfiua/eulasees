@@ -50,6 +50,7 @@ class Common(Configuration):
         'rest_framework',
         'rest_framework_swagger',
         # Your stuff: custom apps go here
+        'django_eulasees',
     )
 
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

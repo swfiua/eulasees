@@ -29,5 +29,10 @@ urlpatterns = patterns('',
     url(r'^avatar/', include('avatar.urls')),
 
     # Your stuff: custom urls go here
+    url(r'^eulasees/', include('django_eulasees.urls')),
+
+    # rest framework and swagger
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^docs/', include('rest_framework_swagger.urls')),
 
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
