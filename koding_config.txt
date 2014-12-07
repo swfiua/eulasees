@@ -1,0 +1,94 @@
+    1  emacs
+    2  sudo aptitude install emacs24
+    3  ls
+    4  python tt1.py 
+    5  cat tt1.py
+    6  python tt1.py 
+    7  cat tt1.py 
+    8  emacs
+    9  ls
+   10  mkdir Devel
+   11  cd Devel
+   12  git clone git@github.com:swfiua/eulasees.git
+   13  ssh-keygen 
+   14  cat ~/.ssh/id_rsa.pub 
+   15  git clone git@github.com:swfiua/eulasees.git
+   16  cd eulasees/
+   17  ls
+   18  pip install requirements/local.txt 
+   19  python3
+   20  apt-python-pipinstallgetsudo
+   21  sudo apt-get install python-pip
+   22  sudo pip install virtualenvwrapper
+   23  type python3
+   24  virtualenv --help
+   25  export WORKON_HOME=$HOME/.virtualenvs
+   26  mkdir ~/.virtualenvs
+   27  source /usr/local/bin/virtualenvwrapper.sh
+   28  mkvirtualenv -p /usr/bin/python3.4 koding
+   29  pip install -r requirements/local.txt 
+   30  pg_config
+   31  sudo apt-get install libpq-dev postgresql-common 
+   32  sudo apt-get update
+   33  sudo apt-get install libpq-dev postgresql-common 
+   34  cd 
+   35  ls .ssh/
+   36  cat > .ssh/authorized_keys
+   37  who am i
+   38  ifconfig
+   39  pwd
+   40  ls
+   41  cd Devel/
+   42  ll
+   43  ls -lart
+   44  cd ..
+   45  cd Devel/eulasees/
+   46  ll
+   47  ls -lart
+   48  pip install virtualenvwrapper
+   49  source /usr/local/bin/virtualenvwrapper.sh
+   50  workon koding
+   51  pip install -r requirements/local.txt 
+   52  sudo apt-get install aptitude
+   53  aptitude search python |grep dev
+   54  sudo aptitude install python3.4-dev
+   55  cd
+   56  git clone git@github.com:swfiua/dotfiles.git
+   57  ls -al
+   58  rm .bashrc 
+   59  ll .emacs.d/
+   60  ls -al .emacs.d/
+   61  rmdir .emacs.d/
+   62  ls
+   63  ll dotfiles/
+   64  ls -al dotfiles/
+   65  ln -s dotfiles/.bashrc .
+   66  ln -s dotfiles/.bash_profile .
+   67  ln -s dotfiles/.all_shells .
+   68  ln -s dotfiles/.cookiecutterrc .
+   69  ln -s dotfiles/.emacs.d/ .
+   70  ln -s dotfiles/.inputrc .
+   71  ll
+   72  ll
+   73  ls -lart
+   74  cd Devel/
+   75  ll
+   76  workon koding
+   77  cd eulasees/
+   78  aptitude search python |grep dev
+   79  pip install -r requirements/local.txt 
+   80  pip install django_eulasees
+   81  sudo apt-get install postgresql postgresql-contrib
+   82  sudo su - postgres
+   83  sudo aptitude install postgresql-client-common
+   84  sudo su - postgres
+   85  ll
+   86  python eulasees/manage.py shell
+   87  python eulasees/manage.py migrate
+   88  sudo su - postgres
+   89  python eulasees/manage.py migrate
+   90  python eulasees/manage.py runserver
+   91  curl icanhasip.com
+   92  python eulasees/manage.py runserver 54.174.181.211:8000
+   93  history 
+   94  history > koding_config.txt
