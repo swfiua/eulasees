@@ -38,3 +38,5 @@ pytz==2014.7
 # Your custom requirements go here
 djangorestframework==2.3.5
 django-rest-swagger
+django-eulasees
+
