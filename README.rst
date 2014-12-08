@@ -57,6 +57,8 @@ failing :(
 
 One hour to go. 
 
+STOPPRESS: django-cors-headers to the rescue :)
+
 .. _django-rest-swagger: http://django-rest-swagger.readthedocs.org/en/latest/
 
 .. _django-rest-framework: http://www.django-rest-framework.org/
