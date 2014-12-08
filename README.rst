@@ -43,6 +43,11 @@ Rest API
 
 You can browse the rest API here:  http://swfiua.koding.io:8000/docs/
 
+The Application itself
+======================
+
+All going well you should be able to use the application here: http://swfiua.koding.io
+
 
 Where we are at
 ===============
