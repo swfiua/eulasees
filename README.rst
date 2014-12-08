@@ -38,6 +38,12 @@ The API is documented using `django-rest-swagger`_
 
 The rest of the application is written with `angular.js`_
 
+Rest API
+========
+
+You can browse the rest API here:  http://swfiua.koding.io:8000/docs/
+
+
 Where we are at
 ===============
 
@@ -59,6 +65,10 @@ One hour to go.
 
 STOPPRESS: django-cors-headers to the rescue :)
 
+
+
 .. _django-rest-swagger: http://django-rest-swagger.readthedocs.org/en/latest/
 
 .. _django-rest-framework: http://www.django-rest-framework.org/
+
+.. _angular.js: https://angularjs.org/
